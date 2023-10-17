@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/fragmentTela1"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Tela 1" />
+    <item
+        android:id="@+id/fragmentTela2"
+        android:icon="@drawable/baseline_hiking_24"
+        android:title="Tela 2" />
+    <item
+        android:id="@+id/fragmentTela3"
+        android:icon="@drawable/baseline_hive_24"
+        android:title="Tela 3" />
+</menu>

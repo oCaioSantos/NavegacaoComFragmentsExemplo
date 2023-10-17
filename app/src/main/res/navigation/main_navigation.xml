@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/fragmentTela1">
+
+    <fragment
+        android:id="@+id/fragmentTela1"
+        tools:layout="@layout/fragment_tela_1"
+        android:name="com.example.navegacaocomfragmentsexemplo.fragments.FragmentTela1"
+        android:label="FragmentTela1" >
+        <action
+            android:id="@+id/fromTela1ToTela2"
+            app:destination="@id/fragmentTela2" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentTela2"
+        tools:layout="@layout/fragment_tela_2"
+        android:name="com.example.navegacaocomfragmentsexemplo.fragments.FragmentTela2"
+        android:label="FragmentTela2" >
+        <action
+            android:id="@+id/fromTela2ToTela3"
+            app:destination="@id/fragmentTela3" />
+        <action
+            android:id="@+id/fromTela2ToTela1"
+            app:destination="@id/fragmentTela1" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentTela3"
+        tools:layout="@layout/fragment_tela_3"
+        android:name="com.example.navegacaocomfragmentsexemplo.fragments.FragmentTela3"
+        android:label="FragmentTela3" >
+        <action
+            android:id="@+id/fromTela3ToTela2"
+            app:destination="@id/fragmentTela2" />
+    </fragment>
+</navigation>
