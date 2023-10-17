@@ -1,4 +1,4 @@
-# Exemplo de Navegação com Fragments no Android
+# Exemplo de Navegação com Fragments no Android ![Linguagem](https://img.shields.io/badge/Linguagem-Kotlin-blue) ![Versão Mínima do Android](https://img.shields.io/badge/Stack-Android-brightgreen)
 
 Este repositório contém um exemplo simples de um aplicativo Android que demonstra o uso do Navigation Component e Fragments para criar uma navegação entre telas em um aplicativo Android. O aplicativo usa uma `BottomNavigationView` para navegar entre diferentes telas, que são representadas por Fragments.
 
